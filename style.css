@@ -1,0 +1,55 @@
+body,html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    
+}
+
+
+.topcontainer{
+    height: 20rem;
+    background:linear-gradient( to right , 
+    rgba(174, 206, 14, 0.388) 0%,
+    rgba(184, 224, 8, 0.559) 25%,
+    rgba(147, 216, 8, 0.712) 50%,
+    rgba(106, 225, 8, 0.703) 75%,
+    rgba(64, 151, 24, 0.728) 100%
+    ) ;
+    border-radius: 100px;
+}
+.myheader{
+ background-color: white;
+ position: fixed;
+ width: 100%;
+ box-shadow: 0 0.125rem 0.25rem rgb(160, 156, 156);
+}
+.myaroundbox{
+  display: flex;
+  justify-content: space-between;  
+}
+h4{
+    text-align: center;  
+}
+.htmlbox{
+    
+    height: 200px;
+    
+}
+.myBtn{
+    width: 250px;
+    height: 60px;
+    background-color: rgba(174, 206, 14, 0.388);
+    border: 2px solid rgba(174, 206, 14, 0.388);
+    border-radius: 4px;
+    
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+body{
+    font-size: large;
+}

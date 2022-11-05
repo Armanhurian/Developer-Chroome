@@ -1,0 +1,15 @@
+a{
+    text-decoration: none;
+    color: white;
+}
+.mybtn{
+background-color: crimson;
+border: 2px crimson;
+border-radius: 30px;
+width: 150px;
+height: 50px;
+
+}
+.myimg{
+    height: 300px;
+}
