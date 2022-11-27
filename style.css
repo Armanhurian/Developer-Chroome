@@ -53,3 +53,38 @@ a{
 body{
     font-size: large;
 }
+
+.myManu{
+    display: none;
+}
+
+.loginFormPage{
+    display: none;
+    background-color: rgba(174, 255, 127, 0.584);
+    border-radius: 50px;
+}
+.myProfileBox{
+    display: none;
+    background-color: rgba(127, 255, 204, 0.584);
+    border-radius: 50px;
+}
+
+.loginFormBtnCancel ,.myProfileCancelBox{
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 8px;
+    color: white;
+}
+.loginFormBtnSubmit{
+    background-color: green;
+    border: 2px solid green;
+    border-radius: 8px;
+    color: white;  
+}
+
+.myNameInput , .myAgeInput{
+    background-color: rgba(47, 20, 220, 0.329);
+    border: 2px solid rgba(47, 20, 220, 0.329);
+    border-radius: 5px;
+    color: white;
+}

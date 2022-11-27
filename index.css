@@ -14,3 +14,6 @@ height: 50px;
 .myimg{
     height: 300px;
 }
+.loginFormBtnCancel{
+    background-color: rgb(255, 0, 0);
+}
