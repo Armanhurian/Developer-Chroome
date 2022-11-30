@@ -2,6 +2,9 @@ let reactElement =document.getElementById('reactt');
 let jsElement =document.getElementById('jss')
 let htmlElement =document.getElementById('htmll');
 let solidityElement =document.getElementById('solidityy');
+let myContainer =document.querySelector('.myContainer')
+let myGif= document.querySelector('.myGif')
+let myGifContainer = document.querySelector('.myGifContainer')
 
 
 
@@ -109,4 +112,20 @@ Profile.addEventListener('click',function(){
 
 myProfileCancelBox.addEventListener('click',function(){
     myProfileBox.style.display='none'
+})
+
+
+window.addEventListener('load',function(){
+    myContainer.style.display='none'
+    myGif.style.display='block'
+    myGif.setAttribute('class','myGif hidden')
+    
+    
+    window.setInterval(function(){
+        myContainer.style.display='block'
+        myGifContainer.remove()
+        myGif.setAttribute('class','myGif')
+      
+    },'3000')
+    
 })

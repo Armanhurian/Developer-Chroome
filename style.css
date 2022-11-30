@@ -88,3 +88,14 @@ body{
     border-radius: 5px;
     color: white;
 }
+.myGif ,.hidden{
+    animation: fadeOut 3s ;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut{
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
